@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Image } from 'antd';
 import { Card, Avatar } from 'antd';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import { GithubOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 
@@ -25,9 +25,9 @@ function App() {
             style={{ width: "76vw", height: 256.5, fontSize: 26}} 
    
             actions={[
-              <SettingOutlined key="setting" />,
-              <EditOutlined key="edit" />,
-              <EllipsisOutlined key="ellipsis" />,
+              <MailOutlined style={{ fontSize: '17px' }} key="email" />,
+              <LinkedinOutlined style={{ fontSize: '17px'}} key="linkedin" />,
+              <GithubOutlined style={{ fontSize: '17px' }} key="github" />,
             ]}
             >
             <Meta

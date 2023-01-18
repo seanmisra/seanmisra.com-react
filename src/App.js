@@ -1,12 +1,52 @@
 import logo from './logo.svg';
 import './App.css';
 import { Image } from 'antd';
-import { Card, Avatar } from 'antd';
+import { Card, Avatar,  Button, message, Steps, theme } from 'antd';
 import { GithubOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
+import React, { useState } from 'react';
 
 const { Meta } = Card;
 
+const steps = [
+  {
+    title: 'Skills',
+    content: 'List skills here: Angular, CSS, HTML, Spring, etc.',
+  },
+  {
+    title: 'Projects',
+    content: 'projects with icons, short descriptions and links',
+  },
+  {
+    title: 'Chat',
+    content: 'add a chatbot feature, for FAQs. In meantime, say Coming Soon',
+  },
+];
+
+
 function App() {
+  const { token } = theme.useToken();
+  const [current, setCurrent] = useState(0);
+
+  const next = () => {
+    setCurrent(current + 1);
+  };
+
+  const prev = () => {
+    setCurrent(current - 1);
+  };
+
+  const items = steps.map((item) => ({ key: item.title, title: item.title }));
+
+  const contentStyle: React.CSSProperties = {
+    lineHeight: '260px',
+    textAlign: 'center',
+    color: token.colorTextTertiary,
+    backgroundColor: token.colorFillAlter,
+    borderRadius: token.borderRadiusLG,
+    border: `1px dashed ${token.colorBorder}`,
+    marginTop: 16,
+  };
+
   return (
     <div className="App">
 
@@ -40,8 +80,27 @@ function App() {
 
       </div>
       
-
-
+      <div class="steps-content">
+        <Steps current={current} items={items} />
+        <div style={contentStyle}>{steps[current].content}</div>
+        <div style={{ marginTop: 24 }}>
+          {current < steps.length - 1 && (
+            <Button type="primary" onClick={() => next()}>
+              Next
+            </Button>
+          )}
+          {current === steps.length - 1 && (
+            <Button type="primary" onClick={() => message.success('Processing complete!')}>
+              Done
+            </Button>
+          )}
+          {current > 0 && (
+            <Button style={{ margin: '0 8px' }} onClick={() => prev()}>
+              Previous
+            </Button>
+          )}
+        </div>
+      </div>
     </div>
   );
 }

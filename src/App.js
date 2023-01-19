@@ -76,7 +76,7 @@ function App() {
           <div class="image-container">
             <Image 
               width={250}
-              src={require("./resources/website_profile_photo.jpg")}
+              src={require("./resources/website_profile_photo_2.jpg")}
             />
           </div>
 

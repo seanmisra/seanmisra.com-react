@@ -128,3 +128,7 @@ Footer {
 #resume-no-space:hover {
   text-decoration: underline;
 }
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-steps .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+  font-weight: bold;
+}

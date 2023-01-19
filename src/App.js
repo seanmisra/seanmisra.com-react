@@ -108,7 +108,7 @@ function App() {
           </div>
           <div style={{ marginTop: 13 }}>
             {current < steps.length - 1 && (
-              <Button type="primary" onClick={() => next()}>
+              <Button id="next-button" type="primary" onClick={() => next()}>
                 Next
               </Button>
             )}
@@ -118,7 +118,7 @@ function App() {
               </Button>
             )}
             {current > 0 && (
-              <Button style={{ margin: '0 8px' }} onClick={() => prev()}>
+              <Button id="previous-button" style={{ margin: '0 8px' }} onClick={() => prev()}>
                 Previous
               </Button>
             )}

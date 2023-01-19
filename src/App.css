@@ -82,6 +82,18 @@ Footer {
   border: none;
 }
 
+/* #next-button:hover {
+  background-color: white !important;
+  color: rgb(69, 178, 221) !important; 
+  border: 1px solid rgb(69, 178, 221);
+} */
+
+#previous-button {
+  background-color: white !important;
+  color: rgb(69, 178, 221) !important; 
+  border: 1px solid rgb(69, 178, 221);
+}
+
 .ant-btn:hover {
   background-color: #1677ff;
   color: white !important;
@@ -99,6 +111,10 @@ Footer {
 
 #emoji-two, #emoji-three, #emoji-four, #emoji-five {
   margin-left: 10px;
+}
+
+#smiley-face {
+  color: rgba(0, 0, 0, .6);
 }
 
 .footer-wrapper {

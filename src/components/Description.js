@@ -11,7 +11,7 @@ const Description = () => {
     
     return(
         <div>
-            Hi, my name is Sean and I'm a software engineer. I am passionate about web engineering! Please feel free to check out some of my projects. My hobbies include travel, movies, science-fiction, and biking.
+            Hi, my name is Sean and I'm a software engineer. I am passionate about web engineering! Please feel free to check out some of my projects. My hobbies include travel, movies, science-fiction, and biking &nbsp;<span id="smiley-face">🙂</span>
             <br/>
             <br/>
             <span onClick={downloadResume} id="resume-link"><span id="resume-no-space">Resume</span>&nbsp;<FileWordOutlined /></span>

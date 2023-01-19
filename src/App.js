@@ -8,6 +8,7 @@ import Skills from './components/Skills.js'
 import Chatbot from './components/Chatbot.js';
 import Projects from './components/Projects';
 import Description from './components/Description';
+import Footer from './components/Footer';
 
 const { Meta } = Card;
 
@@ -39,6 +40,10 @@ function linkedinAction() {
 
 function githubAction() {
   window.open("https://github.com/seanmisra", '_blank');
+}
+
+function mailAction() {
+  window.open("mailto:seanmisra30@gmail.com", '_blank');
 }
 
 function App() {
@@ -80,7 +85,7 @@ function App() {
               style={{ width: "76vw", height: 256.5, fontSize: 26}} 
     
               actions={[
-                <MailOutlined style={{ fontSize: '17px' }} key="email" />,
+                <MailOutlined onClick={mailAction} style={{ fontSize: '17px' }} key="email" />,
                 <LinkedinOutlined onClick={linkedinAction} style={{ fontSize: '17px'}} key="linkedin" />,
                 <GithubOutlined onClick={githubAction} style={{ fontSize: '17px' }} key="github" />,
               ]}
@@ -119,8 +124,9 @@ function App() {
             )}
           </div>
         </div>
-      </div>
-      
+      </div>   
+
+      <Footer></Footer> 
     </div>
   );
 }

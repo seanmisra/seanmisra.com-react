@@ -1,0 +1,26 @@
+#movie-picker-image {
+    margin-top: 20px;
+    margin-left: 20px;
+    flex: 4;
+    /* border: 1px solid lightgray; */
+}
+
+.carousel-wrapper {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.carousel-description {
+    flex: 5;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+#demo-github > svg {
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+#demo-github > svg:hover {
+    color: rgb(69, 178, 221);
+}

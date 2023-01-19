@@ -94,7 +94,6 @@ function App() {
                 avatar={<Avatar size="large" src={require("./resources/avatar.jpg")} />}
                 title="Hello!"
                 description={<Description/>}
-                  // "Hi, my name is Sean and I'm a software engineer. I am passionate about web engineering! Please feel free to check out some of my projects. My hobbies include travel, movies, science-fiction, and biking."}
               />
             </Card>
           </div>

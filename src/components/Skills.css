@@ -1,0 +1,27 @@
+
+#timeline-line {
+    border-color: rgba(265, 265, 265, .5);
+  }
+  
+  .timeline-bubble {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50px;
+    position: relative;
+    top: -35px;
+    /* transition: background-color 0.5s ease; */
+  }
+
+  .timeline-bubble:hover {
+      background-color:lightpink;
+  }
+  
+  .timeline-date {
+    position: relative;
+    top: -35px;
+    line-height: normal;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 11px
+  }

@@ -34,5 +34,14 @@
   flex-direction: column;
 }
 
+.timeline-wrapper {
+  margin-top: 145px;
+  margin-bottom: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-
+.steps-wrapper {
+  /* line-height: 40vh;
+  text-align: center; */
+}

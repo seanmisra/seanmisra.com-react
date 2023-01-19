@@ -48,8 +48,6 @@ function App() {
   const items = steps.map((item) => ({ key: item.title, title: item.title }));
 
   const contentStyle: React.CSSProperties = {
-    lineHeight: '40vh',
-    textAlign: 'center',
     color: token.colorTextTertiary,
     backgroundColor: token.colorFillAlter,
     borderRadius: token.borderRadiusLG,
@@ -91,7 +89,7 @@ function App() {
         
         <div class="steps-content">
           <Steps current={current} items={items} />
-          <div style={contentStyle}> 
+          <div style={contentStyle} class="steps-wrapper"> 
             { loadComponent(steps[current].component) }
           </div>
           <div style={{ marginTop: 24 }}>

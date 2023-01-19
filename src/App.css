@@ -18,6 +18,11 @@
   height: 205px;
 }
 
+.ant-card-meta-description {
+  font-family: Roboto;
+  font-size: 21px;
+}
+
 .bio-container {
   margin-right: 20px;
   margin-left: 20px;
@@ -53,7 +58,7 @@
 
 .ant-steps-item-icon {
   background-color: rgb(250, 265, 264) !important;
-  border: .5px dotted skyblue !important ;
+  border: .5px solid lightgray !important ;
   color: black !important; 
 }
 
@@ -64,4 +69,18 @@
 .ant-btn {
   width: 175px;
   background-color: skyblue;
+}
+
+.ant-card-actions > li > span > span > svg {
+	font-size: 21px;
+}
+
+.emojis {
+  font-size: 30px;
+  color: rgba(0, 0, 0, .7);
+  margin-top: 15px;
+}
+
+#emoji-two, #emoji-three, #emoji-four, #emoji-five {
+  margin-left: 10px;
 }

@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import Skills from './components/Skills.js'
 import Chatbot from './components/Chatbot.js';
 import Projects from './components/Projects';
+import Description from './components/Description';
 
 const { Meta } = Card;
 
@@ -32,6 +33,13 @@ function loadComponent (componentName) {
   }
 }
 
+function linkedinAction() {
+  window.open("https://www.linkedin.com/in/seanmisra", '_blank');
+}
+
+function githubAction() {
+  window.open("https://github.com/seanmisra", '_blank');
+}
 
 function App() {
   const { token } = theme.useToken();
@@ -73,14 +81,15 @@ function App() {
     
               actions={[
                 <MailOutlined style={{ fontSize: '17px' }} key="email" />,
-                <LinkedinOutlined style={{ fontSize: '17px'}} key="linkedin" />,
-                <GithubOutlined style={{ fontSize: '17px' }} key="github" />,
+                <LinkedinOutlined onClick={linkedinAction} style={{ fontSize: '17px'}} key="linkedin" />,
+                <GithubOutlined onClick={githubAction} style={{ fontSize: '17px' }} key="github" />,
               ]}
               >
               <Meta
                 avatar={<Avatar size="large" src={require("./resources/avatar.jpg")} />}
                 title="Hello!"
-                description={"Hi, my name is Sean and I'm a software engineer. I am passionate about web engineering! Please feel free to check out some of my projects. My hobbies include travel, movies, science-fiction, and biking."}
+                description={<Description/>}
+                  // "Hi, my name is Sean and I'm a software engineer. I am passionate about web engineering! Please feel free to check out some of my projects. My hobbies include travel, movies, science-fiction, and biking."}
               />
             </Card>
           </div>

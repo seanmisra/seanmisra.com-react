@@ -12,7 +12,7 @@ const Skills = () => {
                     <div id="time-bubble-one-wrapper">
                         <div id="timeline-bubble-one" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-one">
-                                2015
+                                '15
                             </span>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const Skills = () => {
                     <div id="time-bubble-two-wrapper">
                         <div id="timeline-bubble-two" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-two">
-                                2016
+                                '16
                             </span>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Skills = () => {
                     <div id="time-bubble-three-wrapper">
                         <div id="timeline-bubble-three" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-three">
-                                2017
+                                '17
                             </span>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Skills = () => {
                     <div id="time-bubble-four-wrapper">
                         <div id="timeline-bubble-four" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-four">
-                                2018
+                                '18
                             </span>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Skills = () => {
                     <div id="time-bubble-five-wrapper">
                         <div id="timeline-bubble-five" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-five">
-                                2020
+                                '20
                             </span>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                     <div id="time-bubble-six-wrapper">
                         <div id="timeline-bubble-six" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-six">
-                                2022 
+                                '22 
                             </span>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const Skills = () => {
                         </div> */}
 
                         <div class="skill-tag-wrapper" id="skill-tag-wrapper-fifteen">
-                            <Tag color="white">JQuery</Tag>
+                            <Tag color="white">JavaScript</Tag>
                         </div>
                     </div>
 

@@ -99,7 +99,7 @@ function App() {
               </Button>
             )}
             {current === steps.length - 1 && (
-              <Button type="primary" onClick={() => message.success('Processing complete!')}>
+              <Button type="primary" onClick={() => message.success('Thanks for visiting!')}>
                 Done
               </Button>
             )}

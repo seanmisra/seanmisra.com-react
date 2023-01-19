@@ -1,6 +1,7 @@
 
 #timeline-line {
-    border-color: rgba(265, 265, 265, .5);
+    /* border-color: rgba(265, 265, 265, .5); */
+    border: solid .5px skyblue;
   }
 
   .timeline-bubbles-wrapper {
@@ -13,14 +14,15 @@
     width: 45px;
     height: 45px;
     /* background-color: lightsteelblue; */
-    background-color: white;
+    background-color: rgb(250, 265, 264);
     /* background-color: #f4ae72; */
     border-radius: 45px;
-    color: rgb(50, 50, 50);
+    color: rgb(80, 80, 80);
     font-size: 12px;
     position: relative;
     top: 30px;
-  }
+    border: .5px dotted skyblue !important ;
+}
 
   /* .timeline-bubble:hover {
       background-color:lightpink;
@@ -30,13 +32,9 @@
   .timeline-year {
     position: relative;
     top: 15px;
-    left: 15px;
-  }
-
-  #timeline-year-one {
     left: 9px;
+    font-size: 11px;
   }
-
 
 #time-bubble-one-wrapper, #time-bubble-two-wrapper, #time-bubble-three-wrapper {
     flex: 1;
@@ -48,4 +46,135 @@
 
 #time-bubble-six-wrapper {
     flex: 0;
+}
+
+.skill-tag-wrapper {
+    position: absolute;
+    top: 420px;
+    display: table;
+}
+
+.ant-tag {
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    display: table-cell; vertical-align: middle;
+    border-radius: 15px;
+    color: white;
+}
+
+#skill-tag-wrapper-one  {
+    left: 70px;
+}
+
+#skill-tag-wrapper-one  > span {
+    color: rgba(242,101,36, 1) !important;
+    border-color: rgba(242,101,36,.5) !important;
+}
+
+#skill-tag-wrapper-two {
+    left: 30px;
+    top: 380px;
+}
+
+#skill-tag-wrapper-two > span {
+    color: rgba(40,101,240,1) !important;
+    border-color: rgba(40,101,240,.5) !important;
+}
+
+#skill-tag-wrapper-three {
+    left: 40px;
+    top: 550px;
+}
+
+#skill-tag-wrapper-three > span {
+    color: rgba(27,118,156,1) !important;
+    border-color: rgba(27,118,156,.5) !important;
+}
+
+#skill-tag-wrapper-four {
+    left: 170px;
+    top: 570px;
+}
+
+#skill-tag-wrapper-four > span {
+    color: rgba(101,155,211,1) !important;
+    border-color: rgba(101,155,211,.5) !important;
+}
+
+#skill-tag-wrapper-five {
+    left: 240px;
+    top: 430px;
+}
+
+#skill-tag-wrapper-five > span {
+    color: rgba(121,134,184,1) !important;
+    border-color: rgba(121,134,184,.5) !important;
+}
+
+#skill-tag-wrapper-six {
+    left: 470px;
+    top: 400px;
+}
+
+#skill-tag-wrapper-six > span {
+    color: rgba(38,114,200,1) !important;
+    border-color: rgba(38,114,200,.5) !important;
+}
+
+#skill-tag-wrapper-seven {
+    left: 470px;
+    top: 600px;
+}
+
+#skill-tag-wrapper-seven > span {
+    color: rgba(248,151,28,1) !important;
+    border-color: rgba(248,151,28,.5) !important;
+}
+
+
+#skill-tag-wrapper-eight {
+    right: 25vw;
+}
+
+#skill-tag-wrapper-eight > span {
+    color: rgba(108,181,44,1) !important;
+    border-color: rgba(108,181,44,.5) !important;
+}
+
+
+#skill-tag-wrapper-nine {
+    right: 18vw;
+    top: 550px;
+}
+
+#skill-tag-wrapper-nine > span {
+    color: rgba(236,114,17,1) !important;
+    border-color: rgba(236,114,17,.5) !important;
+}
+
+#skill-tag-wrapper-ten {
+    right: 16vw;
+    top: 590px;
+}
+
+#skill-tag-wrapper-ten > span {
+    color: rgba(57,116,164,1) !important;
+    border-color: rgba(57,116,164,.5) !important;
+}
+
+#skill-tag-wrapper-eleven {
+    right: 5vw;
+    top: 400px;
+}
+
+#skill-tag-wrapper-eleven > span {
+    color: rgba(96,219,251,1) !important;
+    border-color: rgba(96,219,251,.5) !important;
+}
+
+.skills-tags-wrapper {
+    display: flex;
+    justify-content: space-between;
 }

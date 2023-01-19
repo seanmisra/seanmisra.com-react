@@ -48,4 +48,20 @@
 .steps-wrapper {
   /* line-height: 40vh;
   text-align: center; */
+  border: 1px dashed rgb(190, 190, 190) !important;
+}
+
+.ant-steps-item-icon {
+  background-color: rgb(250, 265, 264) !important;
+  border: .5px dotted skyblue !important ;
+  color: black !important; 
+}
+
+.ant-steps-icon {
+  color: black !important; 
+}
+
+.ant-btn {
+  width: 175px;
+  background-color: skyblue;
 }

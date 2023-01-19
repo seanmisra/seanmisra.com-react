@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Orbitron:wght@700&family=Roboto&display=swap');
+
 
 .content-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
   margin-top: 20px;
+  font-family: Roboto;
+}
+
+Footer {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
 
 .image-container {
@@ -15,7 +23,7 @@
 }
 
 .ant-card-body {
-  height: 205px;
+  height: 200px;
 }
 
 .ant-card-meta-description {
@@ -31,7 +39,7 @@
 .steps-content {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .content-wrapper {
@@ -57,18 +65,17 @@
 }
 
 .ant-steps-item-icon {
-  background-color: rgb(250, 265, 264) !important;
-  border: .5px solid lightgray !important ;
-  color: black !important; 
+  background-color: rgb(69, 178, 221) !important;
+  border: .5px dotted lightgray !important ;
 }
 
 .ant-steps-icon {
-  color: black !important; 
+  color: white !important; 
 }
 
 .ant-btn {
   width: 175px;
-  background-color: skyblue;
+  background-color: rgb(69, 178, 221) !important;
   color: white;
   box-shadow: none;
   outline: none;
@@ -81,7 +88,7 @@
 }
 
 .ant-card-actions > li > span > span > svg {
-	font-size: 21px;
+	font-size: 25px;
 }
 
 .emojis {
@@ -106,4 +113,18 @@
   justify-content: center;
 
   font-size: 11px;
+}
+
+.chatbot-wrapper, .projects-wrapper {
+  height: 301px;
+}
+
+#resume-link {
+  font-size: 14px;
+  color: rgb(69, 178, 221);
+  cursor: pointer;
+}
+
+#resume-no-space:hover {
+  text-decoration: underline;
 }

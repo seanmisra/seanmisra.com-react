@@ -82,7 +82,7 @@ function App() {
 
           <div class="bio-container">
             <Card
-              style={{ width: "76vw", height: 256.5, fontSize: 26}} 
+              style={{ width: "78vw", height: 256.5, fontSize: 26}} 
     
               actions={[
                 <MailOutlined onClick={mailAction} style={{ fontSize: '17px' }} key="email" />,
@@ -106,7 +106,7 @@ function App() {
           <div style={contentStyle} class="steps-wrapper"> 
             { loadComponent(steps[current].component) }
           </div>
-          <div style={{ marginTop: 24 }}>
+          <div style={{ marginTop: 13 }}>
             {current < steps.length - 1 && (
               <Button type="primary" onClick={() => next()}>
                 Next

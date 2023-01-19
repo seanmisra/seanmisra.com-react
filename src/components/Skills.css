@@ -2,26 +2,50 @@
 #timeline-line {
     border-color: rgba(265, 265, 265, .5);
   }
+
+  .timeline-bubbles-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
   
   .timeline-bubble {
-    width: 50px;
-    height: 50px;
-    background-color: pink;
-    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    /* background-color: lightsteelblue; */
+    background-color: white;
+    /* background-color: #f4ae72; */
+    border-radius: 45px;
+    color: rgb(50, 50, 50);
+    font-size: 12px;
     position: relative;
-    top: -35px;
-    /* transition: background-color 0.5s ease; */
+    top: 30px;
   }
 
-  .timeline-bubble:hover {
+  /* .timeline-bubble:hover {
       background-color:lightpink;
-  }
-  
-  .timeline-date {
+      color: white;
+  } */
+
+  .timeline-year {
     position: relative;
-    top: -35px;
-    line-height: normal;
-    text-align: left;
-    font-size: 12px;
-    margin-left: 11px
+    top: 15px;
+    left: 15px;
   }
+
+  #timeline-year-one {
+    left: 9px;
+  }
+
+
+#time-bubble-one-wrapper, #time-bubble-two-wrapper, #time-bubble-three-wrapper {
+    flex: 1;
+} 
+
+#time-bubble-five-wrapper, #time-bubble-four-wrapper {
+    flex: 2;
+} 
+
+#time-bubble-six-wrapper {
+    flex: 0;
+}

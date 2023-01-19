@@ -73,7 +73,7 @@ const Skills = () => {
                         </div>
 
                         <div class="skill-tag-wrapper" id="skill-tag-wrapper-four">
-                            <Tag color="white">C++</Tag>
+                            <Tag color="white">C/C++</Tag>
                         </div>
 
                         <div class="skill-tag-wrapper" id="skill-tag-wrapper-five">
@@ -86,6 +86,23 @@ const Skills = () => {
 
                         <div class="skill-tag-wrapper" id="skill-tag-wrapper-seven">
                             <Tag color="white">Java</Tag>
+                        </div>
+
+
+                        {/* <div class="skill-tag-wrapper" id="skill-tag-wrapper-twelve">
+                            <Tag color="white">Laravel</Tag>
+                        </div> */}
+
+                        {/* <div class="skill-tag-wrapper" id="skill-tag-wrapper-thirteen">
+                            <Tag color="white">SQL</Tag>
+                        </div> */}
+
+                        {/* <div class="skill-tag-wrapper" id="skill-tag-wrapper-fourteen">
+                            <Tag color="white">Jenkins</Tag>
+                        </div> */}
+
+                        <div class="skill-tag-wrapper" id="skill-tag-wrapper-fifteen">
+                            <Tag color="white">JQuery</Tag>
                         </div>
                     </div>
 
@@ -105,6 +122,18 @@ const Skills = () => {
 
                         <div class="skill-tag-wrapper" id="skill-tag-wrapper-eleven">
                             <Tag color="white">React</Tag>
+                        </div>
+
+                        <div class="skill-tag-wrapper" id="skill-tag-wrapper-sixteen">
+                            <Tag color="white">Scala</Tag>
+                        </div>
+
+                        <div class="skill-tag-wrapper" id="skill-tag-wrapper-seventeen">
+                            <Tag color="white">Akka</Tag>
+                        </div>
+
+                        <div class="skill-tag-wrapper" id="skill-tag-wrapper-eighteen">
+                            <Tag color="white">Kafka</Tag>
                         </div>
                     </div>
                 </div>

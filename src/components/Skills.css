@@ -50,7 +50,6 @@
 
 .skill-tag-wrapper {
     position: absolute;
-    top: 420px;
     display: table;
 }
 
@@ -65,7 +64,8 @@
 }
 
 #skill-tag-wrapper-one  {
-    left: 70px;
+    top: 450px;
+    left: 130px;
 }
 
 #skill-tag-wrapper-one  > span {
@@ -74,8 +74,8 @@
 }
 
 #skill-tag-wrapper-two {
-    left: 30px;
-    top: 380px;
+    left: 55px;
+    top: 415px;
 }
 
 #skill-tag-wrapper-two > span {
@@ -84,8 +84,8 @@
 }
 
 #skill-tag-wrapper-three {
-    left: 40px;
-    top: 550px;
+    left: 80px;
+    top: 510px;
 }
 
 #skill-tag-wrapper-three > span {
@@ -94,8 +94,8 @@
 }
 
 #skill-tag-wrapper-four {
-    left: 170px;
-    top: 570px;
+    left: 185px;
+    top: 550px;
 }
 
 #skill-tag-wrapper-four > span {
@@ -104,8 +104,8 @@
 }
 
 #skill-tag-wrapper-five {
-    left: 240px;
-    top: 430px;
+    left: 295px;
+    top: 450px;
 }
 
 #skill-tag-wrapper-five > span {
@@ -114,18 +114,18 @@
 }
 
 #skill-tag-wrapper-six {
-    left: 470px;
-    top: 400px;
+    left: 375px;
+    top: 410px;
 }
 
 #skill-tag-wrapper-six > span {
-    color: rgba(38,114,200,1) !important;
-    border-color: rgba(38,114,200,.5) !important;
+    color: rgba(221,39,56,1) !important;
+    border-color: rgb(221,39,56,.5) !important;
 }
 
 #skill-tag-wrapper-seven {
-    left: 470px;
-    top: 600px;
+    left: 300px;
+    top: 510px;
 }
 
 #skill-tag-wrapper-seven > span {
@@ -136,6 +136,7 @@
 
 #skill-tag-wrapper-eight {
     right: 25vw;
+    top: 420px;
 }
 
 #skill-tag-wrapper-eight > span {
@@ -177,4 +178,75 @@
 .skills-tags-wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+
+#skill-tag-wrapper-twelve {
+    left: 470px;
+    top: 540px;
+}
+
+#skill-tag-wrapper-twelve > span {
+    color: rgba(241,59,46,1) !important;
+    border-color: rgba(241,59,46,.5) !important;
+}
+
+#skill-tag-wrapper-thirteen {
+    left: 260px;
+    top: 530px;
+}
+
+#skill-tag-wrapper-thirteen > span {
+    color: rgb(66,116,203,1) !important;
+    border-color: rgb(66,116,203,.5) !important;
+}
+
+#skill-tag-wrapper-fourteen {
+    left: 420px;
+    top: 430px;
+}
+
+#skill-tag-wrapper-fourteen > span {
+    color: rgb(244,69,48, 1) !important;
+    border-color: rgb(244,69,48, .5) !important;
+}
+
+#skill-tag-wrapper-fifteen {
+    left: 180px;
+    top: 390px;
+}
+
+#skill-tag-wrapper-fifteen > span {
+    color: rgba(9,104,173,1) !important;
+    border-color: rgba(9,104,173,.5) !important;
+}
+
+#skill-tag-wrapper-sixteen {
+    right: 15vw;
+    top: 440px;
+}
+
+#skill-tag-wrapper-sixteen > span {
+    color: rgba(222,57,54,1) !important;
+    border-color: rgba(222,57,54,.5) !important;
+}
+
+#skill-tag-wrapper-seventeen {
+    right: 13vw;
+    top: 400px;
+}
+
+#skill-tag-wrapper-seventeen > span {
+    color: rgba(14,160,198,.5) !important;
+    border-color: rgba(96,219,251,.5) !important;
+}
+
+#skill-tag-wrapper-eighteen {
+    right: 9vw;
+    top: 530px;
+}
+
+#skill-tag-wrapper-eighteen> span {
+    color: rgba(53,61,63,1) !important;
+    border-color: rgba(53,61,63,.5) !important;
 }

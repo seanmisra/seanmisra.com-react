@@ -47,8 +47,19 @@ const Projects = () => {
                     </div>    
                 </div>
 
-                <div>
-                    Java Coffee Shop
+                <div class="carousel-wrapper">
+                    <Image 
+                        class="project-demo-image"
+                        width={600}
+                        src={require("../resources/Java_Coffee_Shop.png")}
+                    />
+
+                    <div class="carousel-description">
+                        <h3>Java Coffee Shop</h3>
+                        <p>Angular 15, Spring Boot, MySQL |</p>
+                        <p>A project to practice Spring Boot REST APIs. The Java Coffee Shop sells food, drinks, and allows the user to create an account and login</p>
+                        <GithubOutlined id="demo-github" onClick={githubActionSupplementGuru}></GithubOutlined>
+                    </div>   
                 </div>
             </Carousel>
         </div>

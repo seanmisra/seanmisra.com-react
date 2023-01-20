@@ -271,4 +271,8 @@
     #skill-tag-wrapper-five {
         display: none;
     }
+
+    #skill-tag-wrapper-seven {
+        top: 525px;
+    }
 }

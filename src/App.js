@@ -82,7 +82,7 @@ function App() {
 
           <div class="bio-container">
             <Card
-              style={{ width: "78vw", height: 256.5, fontSize: 26}} 
+              style={{ height: 256.5, fontSize: 26}} 
     
               actions={[
                 <MailOutlined onClick={mailAction} style={{ fontSize: '17px' }} key="email" />,

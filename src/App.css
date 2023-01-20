@@ -105,7 +105,8 @@ Footer {
 }
 
 .ant-card-actions > li > span > span > svg {
-	font-size: 25px;
+	font-size: 22px;
+  color: rgb(69, 178, 221);
 }
 
 .emojis {
@@ -142,7 +143,7 @@ Footer {
 
 #resume-link {
   font-size: 14px;
-  color: rgb(69, 178, 221);
+  color: darkgray;
   cursor: pointer;
 }
 

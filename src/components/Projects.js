@@ -14,9 +14,13 @@ const Projects = () => {
         window.open("https://github.com/seanmisra/movie-picker", '_blank');
     }
 
+    function githubActionCoffeeShop() {
+        window.open("https://github.com/seanmisra/java-coffee-spring", '_blank');
+    }
+
     return(
         <div class="projects-wrapper">
-            <Carousel>
+            <Carousel autoplay>
                 <div class="carousel-wrapper">
                     <Image 
                         class="project-demo-image"
@@ -58,7 +62,7 @@ const Projects = () => {
                         <h3>Java Coffee Shop</h3>
                         <p>Angular 15, Spring Boot, MySQL |</p>
                         <p>A project to practice Spring Boot REST APIs. The Java Coffee Shop sells food, drinks, and allows the user to create an account and login</p>
-                        <GithubOutlined id="demo-github" onClick={githubActionSupplementGuru}></GithubOutlined>
+                        <GithubOutlined id="demo-github" onClick={githubActionCoffeeShop}></GithubOutlined>
                     </div>   
                 </div>
             </Carousel>

@@ -80,6 +80,7 @@ Footer {
   box-shadow: none;
   outline: none;
   border: none;
+  z-index: 9999;
 }
 
 /* #next-button:hover {
@@ -92,6 +93,10 @@ Footer {
   background-color: white !important;
   color: rgb(69, 178, 221) !important; 
   border: 1px solid rgb(69, 178, 221);
+}
+
+#next-button:hover, #previous-button:hover, #done-button:hover {
+  opacity: .8;
 }
 
 .ant-btn:hover {

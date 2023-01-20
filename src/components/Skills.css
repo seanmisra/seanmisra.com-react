@@ -255,10 +255,10 @@
 }
 
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-carousel .slick-dots li button {
+.ant-carousel .slick-dots li button {
     background: rgb(69, 178, 221) !important;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-carousel .slick-dots-bottom {
+.ant-carousel .slick-dots-bottom {
     top: 275px;
 }

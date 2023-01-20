@@ -262,3 +262,13 @@
 .ant-carousel .slick-dots-bottom {
     top: 275px;
 }
+
+@media(max-width: 1275px) {
+    #skill-tag-wrapper-seventeen {
+        display: none;
+    }
+
+    #skill-tag-wrapper-five {
+        display: none;
+    }
+}

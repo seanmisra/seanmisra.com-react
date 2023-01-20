@@ -154,3 +154,12 @@ Footer {
 .ant-steps .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
   font-weight: bold;
 }
+
+@media (max-height: 700px) {
+  .footer-wrapper {
+    display: none;
+  }
+}
+
+
+

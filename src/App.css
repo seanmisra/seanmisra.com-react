@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Orbitron:wght@700&family=Roboto&display=swap');
 
 
+
 .content-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
   margin-top: 20px;
-  font-family: Roboto;
 }
 
 Footer {
@@ -27,7 +27,7 @@ Footer {
 }
 
 .ant-card-meta-description {
-  font-family: Roboto;
+  /* font-family: Dosis; */
   font-size: 21px;
 }
 

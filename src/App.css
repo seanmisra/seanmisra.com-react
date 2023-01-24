@@ -28,7 +28,7 @@ Footer {
 
 .ant-card-meta-description {
   /* font-family: Dosis; */
-  font-size: 21px;
+  font-size: 17px;
 }
 
 .bio-container {
@@ -110,7 +110,7 @@ Footer {
 }
 
 .emojis {
-  font-size: 30px;
+  font-size: 45px;
   color: rgba(0, 0, 0, .7);
   margin-top: 15px;
 }
@@ -142,9 +142,14 @@ Footer {
 }
 
 #resume-link {
-  font-size: 14px;
+  font-size: 16px;
   color: darkgray;
   cursor: pointer;
+  margin-top: 35px !important;
+}
+
+#resume-link > span > svg {
+  /* margin-left: 5px; */
 }
 
 #resume-no-space:hover {
@@ -159,4 +164,9 @@ Footer {
   .footer-wrapper {
     display: none;
   }
+}
+
+#hashtags {
+  color: rgb(69, 178, 221);    
+  font-size: 13px;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import { FileWordOutlined, FilePdfOutlined} from '@ant-design/icons';
-import resume from '../resources/Sean_Misra_Resume_Aug_2022.docx'
+import resume from '../resources/Sean_Misra_Resume_2023.pdf'
 import { saveAs } from 'file-saver';
 import './Description.css'
 
 const Description = () => {
     
     function downloadResume() {
-        saveAs(resume, "Sean_Misra_Resume.docx");
+        saveAs(resume, "Sean_Misra_Resume.pdf");
     }
     
     return(

@@ -18,6 +18,10 @@ const Projects = () => {
         window.open("https://github.com/seanmisra/java-coffee-spring", '_blank');
     }
 
+    function githubActionFlashcardDepot() {
+        window.open("https://github.com/seanmisra/flashcard-depot", '_blank');
+    }
+
     return(
         <div class="projects-wrapper">
             <Carousel autoplay>
@@ -63,6 +67,21 @@ const Projects = () => {
                         <p>Angular 15, Spring Boot, MySQL |</p>
                         <p>A project to practice Spring Boot REST APIs. The Java Coffee Shop sells food, drinks, and allows the user to create an account and login</p>
                         <GithubOutlined id="demo-github" onClick={githubActionCoffeeShop}></GithubOutlined>
+                    </div>   
+                </div>
+
+                <div class="carousel-wrapper">
+                    <Image 
+                        class="project-demo-image"
+                        width={600}
+                        src={require("../resources/Flashcard_Depot_Screenshot.png")}
+                    />
+
+                    <div class="carousel-description">
+                        <h3>Flashcard Depot</h3>
+                        <p>PHP 8, Docker, Nginx, MySQL |</p>
+                        <p>Flashcard Depot allows users to create, favorite, and study flashcards. The project was deployed via a Docker container and Docker Compose.</p>
+                        <GithubOutlined id="demo-github" onClick={githubActionFlashcardDepot}></GithubOutlined>
                     </div>   
                 </div>
             </Carousel>

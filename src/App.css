@@ -104,9 +104,17 @@ Footer {
   color: white !important;
 }
 
+/* .ant-card-actions > li {
+    margin: 8px 0 !important;
+} */
+
 .ant-card-actions > li > span > span > svg {
 	font-size: 22px;
   color: rgb(69, 178, 221);
+}
+
+.ant-card-actions > li > span > span > svg:hover {
+  opacity: .8;
 }
 
 .emojis {

@@ -74,14 +74,14 @@ function App() {
 
           <div class="image-container">
             <Image 
-              width={250}
-              src={require("./resources/website_profile_photo_2.jpg")}
+              width={231}
+              src={require("./resources/profile_pic_blue.jpg")}
             />
           </div>
 
           <div class="bio-container">
             <Card
-              style={{ height: 256.5, fontSize: 26}} 
+              style={{ height: 236.5, fontSize: 26}} 
     
               actions={[
                 <MailOutlined onClick={mailAction} style={{ fontSize: '17px' }} key="email" />,

@@ -24,7 +24,7 @@ const Projects = () => {
 
     return(
         <div class="projects-wrapper">
-            <Carousel autoplay>
+            <Carousel>
                 <div class="carousel-wrapper">
                     <Image 
                         class="project-demo-image"

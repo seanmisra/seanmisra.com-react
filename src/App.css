@@ -23,7 +23,7 @@ Footer {
 }
 
 .ant-card-body {
-  height: 200px;
+  height: 180px;
 }
 
 .ant-card-meta-description {
@@ -143,9 +143,9 @@ Footer {
 
 #resume-link {
   font-size: 16px;
-  color: darkgray;
+  color: blue;
   cursor: pointer;
-  margin-top: 35px !important;
+  margin-top: 30px !important;
 }
 
 #resume-link > span > svg {
@@ -168,5 +168,10 @@ Footer {
 
 #hashtags {
   color: rgb(69, 178, 221);    
-  font-size: 13px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.ant-steps-item:nth-child(3) {
+  margin-right: 5px;
 }

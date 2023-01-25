@@ -6,3 +6,12 @@
 #resume-link {
     margin-top: 20px;
 }
+
+.ant-avatar-lg {
+    height: 50px;
+    width: 50px;
+}
+
+.ant-card-meta-detail {
+    margin-left: 15px;   
+}

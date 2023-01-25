@@ -1,7 +1,6 @@
 import React from 'react';
 import './Skills.css';
 import { Tag } from 'antd';
-import { Html5Outlined } from '@ant-design/icons';
 
 const Skills = () => {
     return(

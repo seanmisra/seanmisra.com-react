@@ -56,10 +56,10 @@
 .ant-tag {
     height: 30px;
     width: 100px;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     display: table-cell; vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     font-family: Roboto;
     box-shadow: .25px .5px #888888
@@ -72,7 +72,7 @@
 }
 
 #skill-tag-wrapper-one  > span {
-    color: rgba(242,101,36, 1) !important;
+    color: rgba(242,101,36, .6) !important;
     border-color: rgba(242,101,36,.5) !important;
 }
 
@@ -82,7 +82,7 @@
 }
 
 #skill-tag-wrapper-two > span {
-    color: rgba(40,101,240,1) !important;
+    color: rgba(40,101,240,.6) !important;
     border-color: rgba(40,101,240,.5) !important;
 }
 
@@ -92,7 +92,7 @@
 }
 
 #skill-tag-wrapper-three > span {
-    color: rgba(27,118,156,1) !important;
+    color: rgba(27,118,156,.6) !important;
     border-color: rgba(27,118,156,.5) !important;
 }
 
@@ -102,7 +102,7 @@
 }
 
 #skill-tag-wrapper-four > span {
-    color: rgba(101,155,211,1) !important;
+    color: rgba(101,155,211,.6) !important;
     border-color: rgba(101,155,211,.5) !important;
 }
 
@@ -112,7 +112,7 @@
 }
 
 #skill-tag-wrapper-five > span {
-    color: rgba(121,134,184,1) !important;
+    color: rgba(121,134,184,.6) !important;
     border-color: rgba(121,134,184,.5) !important;
 }
 
@@ -122,7 +122,7 @@
 }
 
 #skill-tag-wrapper-six > span {
-    color: rgba(221,39,56,1) !important;
+    color: rgba(221,39,56,.6) !important;
     border-color: rgb(221,39,56,.5) !important;
 }
 
@@ -132,7 +132,7 @@
 }
 
 #skill-tag-wrapper-seven > span {
-    color: rgba(248,151,28,1) !important;
+    color: rgba(248,151,28,.6) !important;
     border-color: rgba(248,151,28,.5) !important;
 }
 
@@ -143,7 +143,7 @@
 }
 
 #skill-tag-wrapper-eight > span {
-    color: rgba(108,181,44,1) !important;
+    color: rgba(108,181,44,.6) !important;
     border-color: rgba(108,181,44,.5) !important;
 }
 
@@ -154,7 +154,7 @@
 }
 
 #skill-tag-wrapper-nine > span {
-    color: rgba(236,114,17,1) !important;
+    color: rgba(236,114,17,.6) !important;
     border-color: rgba(236,114,17,.5) !important;
 }
 
@@ -164,7 +164,7 @@
 }
 
 #skill-tag-wrapper-ten > span {
-    color: rgba(57,116,164,1) !important;
+    color: rgba(57,116,164,.6) !important;
     border-color: rgba(57,116,164,.5) !important;
 }
 
@@ -174,7 +174,7 @@
 }
 
 #skill-tag-wrapper-eleven > span {
-    color: rgba(96,219,251,1) !important;
+    color: rgba(96,219,251,.6) !important;
     border-color: rgba(96,219,251,.5) !important;
 }
 
@@ -190,7 +190,7 @@
 }
 
 #skill-tag-wrapper-twelve > span {
-    color: rgba(241,59,46,1) !important;
+    color: rgba(241,59,46,.6) !important;
     border-color: rgba(241,59,46,.5) !important;
 }
 
@@ -200,7 +200,7 @@
 }
 
 #skill-tag-wrapper-thirteen > span {
-    color: rgb(66,116,203,1) !important;
+    color: rgb(66,116,203,.6) !important;
     border-color: rgb(66,116,203,.5) !important;
 }
 
@@ -210,7 +210,7 @@
 }
 
 #skill-tag-wrapper-fourteen > span {
-    color: rgb(244,69,48, 1) !important;
+    color: rgb(244,69,48, .6) !important;
     border-color: rgb(244,69,48, .5) !important;
 }
 
@@ -220,7 +220,7 @@
 }
 
 #skill-tag-wrapper-fifteen > span {
-    color: rgba(230,166,58, 1) !important;
+    color: rgba(230,166,58, .6) !important;
     border-color: rgba(230,166,58,.5) !important;
 }
 
@@ -230,7 +230,7 @@
 }
 
 #skill-tag-wrapper-sixteen > span {
-    color: rgba(222,57,54,1) !important;
+    color: rgba(222,57,54, .6) !important;
     border-color: rgba(222,57,54,.5) !important;
 }
 
@@ -240,7 +240,7 @@
 }
 
 #skill-tag-wrapper-seventeen > span {
-    color: rgba(14,160,198,.5) !important;
+    color: rgba(14,160,198,.6) !important;
     border-color: rgba(96,219,251,.5) !important;
 }
 
@@ -250,7 +250,7 @@
 }
 
 #skill-tag-wrapper-eighteen> span {
-    color: rgba(53,61,63,1) !important;
+    color: rgba(53,61,63, .6) !important;
     border-color: rgba(53,61,63,.5) !important;
 }
 

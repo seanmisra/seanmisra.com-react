@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Image } from 'antd';
 import { Card, Avatar,  Button, message, Steps, theme } from 'antd';

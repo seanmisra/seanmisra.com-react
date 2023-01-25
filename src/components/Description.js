@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileWordOutlined, FilePdfOutlined} from '@ant-design/icons';
+import { FilePdfOutlined} from '@ant-design/icons';
 import resume from '../resources/Sean_Misra_Resume_2023.pdf'
 import { saveAs } from 'file-saver';
 import './Description.css'

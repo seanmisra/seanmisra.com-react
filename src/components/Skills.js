@@ -12,6 +12,7 @@ const Skills = () => {
                         <div id="timeline-bubble-one" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-one">
                                 2015
+                                <span class="marker" id="marker-15">|</span>
                             </span>
                         </div>
                     </div>
@@ -20,6 +21,7 @@ const Skills = () => {
                         <div id="timeline-bubble-two" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-two">
                                 '16
+                                <span class="marker" id="marker-16">|</span>
                             </span>
                         </div>
                     </div>
@@ -28,6 +30,7 @@ const Skills = () => {
                         <div id="timeline-bubble-three" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-three">
                                 '17
+                                <span class="marker" id="marker-17">|</span>
                             </span>
                         </div>
                     </div>
@@ -36,6 +39,7 @@ const Skills = () => {
                         <div id="timeline-bubble-four" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-four">
                                 '18
+                                <span class="marker" id="marker-18">|</span>
                             </span>
                         </div>
                     </div>
@@ -44,6 +48,7 @@ const Skills = () => {
                         <div id="timeline-bubble-five" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-five">
                                 '20
+                                <span class="marker" id="marker-20">|</span>
                             </span>
                         </div>
                     </div>
@@ -51,7 +56,8 @@ const Skills = () => {
                     <div id="time-bubble-six-wrapper">
                         <div id="timeline-bubble-six" class="timeline-bubble">
                             <span class="timeline-year" id="timeline-year-six">
-                                2022 
+                                2022
+                                <span class="marker" id="marker-2022">|</span> 
                             </span>
                         </div>
                     </div>

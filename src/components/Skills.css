@@ -36,6 +36,21 @@
     font-size: 11px;
   }
 
+  .marker {
+    position: relative;
+    color: rgb(220, 220, 220);
+    font-size: 8px;
+    top: 13px;
+  }
+
+  #marker-15, #marker-2022 {
+    right: 14px;
+  }
+
+  #marker-16, #marker-17, #marker-18, #marker-20 {
+    right: 8px;
+  }
+
   #timeline-year-one {
     left: 4px;
   }

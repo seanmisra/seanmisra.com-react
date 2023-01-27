@@ -1,0 +1,16 @@
+.message-hidden {
+    opacity: 0;
+}
+
+#welcome-message {
+    transition: 3s;
+}
+
+.welcome-wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#email-message {
+    color: #1677ff;
+}

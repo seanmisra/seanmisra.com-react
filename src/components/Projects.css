@@ -25,6 +25,16 @@
     color: rgb(69, 178, 221);
 }
 
+.live-demo {
+    /* color: #3f51b5; */
+}
+
+.live-demo:hover {
+    color: #3f51b5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 @media (max-width: 1380px) {
     .ant-carousel .slick-dots {
         padding-right: 20px;

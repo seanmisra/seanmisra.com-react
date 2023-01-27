@@ -8,9 +8,9 @@ import Projects from './components/Projects';
 import Description from './components/Description';
 import Footer from './components/Footer';
 import KommunicateChat from './chat';
+import Message from './components/Message';
 
 const { Meta } = Card;
-
 
 function loadComponent (componentName) {
   // component does exist
@@ -32,6 +32,7 @@ function mailAction() {
 }
 
 function App() {
+
   const { token } = theme.useToken();
   const [current, setCurrent] = useState(0);
 
@@ -51,7 +52,7 @@ function App() {
     marginTop: 15,
   };
 
-  return (
+  return (    
     <div className="App">
       <KommunicateChat></KommunicateChat>
       <div class="content-wrapper">
@@ -90,8 +91,8 @@ function App() {
             <Projects></Projects>
           </div>
         </div>
-      </div>   
-
+      </div>
+      <Message></Message>   
       <Footer></Footer> 
     </div>
   );

@@ -22,6 +22,10 @@ const Projects = () => {
         window.open("https://github.com/seanmisra/flashcard-depot", '_blank');
     }
 
+    function openMoviePicker() {
+        window.open("http://ec2-44-203-118-224.compute-1.amazonaws.com/", '_blank');
+    }
+
     return(
         <div class="projects-wrapper">
             <Carousel>
@@ -35,7 +39,9 @@ const Projects = () => {
                     <div class="carousel-description">
                         <h3>Movie Picker</h3>
                         <p>MEAN Stack, Angular Material, omdbAPI |</p>
-                        <p>The Movie Picker allows you to pick up to three movies and get a movie recommendation based on your preferences. The recommendation algorithm is based on tag-metadata, while the enriched movie data comes from omdbAPI.</p>
+                        <p>The Movie Picker allows you to pick up to three movies and get a movie recommendation based on your preferences.
+                             The recommendation algorithm is based on tag-metadata, while the enriched movie data comes from omdbAPI.&nbsp;
+                             </p>
                         <GithubOutlined id="demo-github" onClick={githubActionMoviePicker}></GithubOutlined>
                     </div>
             </div>

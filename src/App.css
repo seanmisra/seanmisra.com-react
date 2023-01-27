@@ -33,7 +33,7 @@ Footer {
 
 .bio-container {
   margin-right: 20px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .steps-content {
@@ -169,7 +169,7 @@ Footer {
   font-weight: bold;
 }
 
-@media (max-height: 700px) {
+@media (max-height: 600px) {
   .footer-wrapper {
     display: none;
   }
@@ -193,4 +193,13 @@ Footer {
 
 .ant-card {
   border-radius: 4px;
+}
+
+#built-with-react {
+  cursor: pointer;
+}
+
+#built-with-react:hover {
+  color: blue;
+  /* text-decoration: underline; */
 }

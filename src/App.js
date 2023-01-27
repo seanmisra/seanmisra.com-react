@@ -4,27 +4,13 @@ import { Card, Avatar,  Button, message, Steps, theme } from 'antd';
 import { GithubOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
 import Skills from './components/Skills.js'
-import Chatbot from './components/Chatbot.js';
 import Projects from './components/Projects';
 import Description from './components/Description';
 import Footer from './components/Footer';
+import KommunicateChat from './chat';
 
 const { Meta } = Card;
 
-const steps = [
-  {
-    title: 'Projects',
-    component: Projects
-  },
-  {
-    title: 'Skills',
-    component: Skills,
-  },
-  {
-    title: 'Chat',
-    component: Chatbot
-  },
-];
 
 function loadComponent (componentName) {
   // component does exist
@@ -57,8 +43,6 @@ function App() {
     setCurrent(current - 1);
   };
 
-  const items = steps.map((item) => ({ key: item.title, title: item.title }));
-
   const contentStyle: React.CSSProperties = {
     color: token.colorTextTertiary,
     backgroundColor: token.colorFillAlter,
@@ -69,6 +53,7 @@ function App() {
 
   return (
     <div className="App">
+      <KommunicateChat></KommunicateChat>
       <div class="content-wrapper">
         <div class="content-container">
 
@@ -100,26 +85,8 @@ function App() {
         </div>
         
         <div class="steps-content">
-          <Steps current={current} items={items} />
           <div style={contentStyle} class="steps-wrapper"> 
-            { loadComponent(steps[current].component) }
-          </div>
-          <div style={{ marginTop: 13 }}>
-            {current < steps.length - 1 && (
-              <Button id="next-button" type="primary" onClick={() => next()}>
-                Next
-              </Button>
-            )}
-            {current === steps.length - 1 && (
-              <Button id="done-button" type="primary" onClick={() => message.success('Thanks for visiting!')}>
-                Done
-              </Button>
-            )}
-            {current > 0 && (
-              <Button id="previous-button" style={{ margin: '0 8px' }} onClick={() => prev()}>
-                Previous
-              </Button>
-            )}
+            <Projects></Projects>
           </div>
         </div>
       </div>   

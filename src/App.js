@@ -45,10 +45,10 @@ function App() {
 
   const contentStyle: React.CSSProperties = {
     color: token.colorTextTertiary,
-    backgroundColor: token.colorFillAlter,
+    // backgroundColor: token.colorFillAlter,
     borderRadius: token.borderRadiusLG,
     border: `1px dashed ${token.colorBorder}`,
-    marginTop: 16,
+    marginTop: 15,
   };
 
   return (

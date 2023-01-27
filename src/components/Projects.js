@@ -25,7 +25,7 @@ const Projects = () => {
     return(
         <div class="projects-wrapper">
             <Carousel>
-                <div class="carousel-wrapper">
+            <div class="carousel-wrapper">
                     <Image 
                         class="project-demo-image"
                         width={600}
@@ -38,9 +38,9 @@ const Projects = () => {
                         <p>The Movie Picker allows you to pick up to three movies and get a movie recommendation based on your preferences. The recommendation algorithm is based on tag-metadata, while the enriched movie data comes from omdbAPI.</p>
                         <GithubOutlined id="demo-github" onClick={githubActionMoviePicker}></GithubOutlined>
                     </div>
-                </div>
+            </div>
 
-                <div class="carousel-wrapper">
+            <div class="carousel-wrapper">
                     <Image 
                         class="project-demo-image"
                         width={600}

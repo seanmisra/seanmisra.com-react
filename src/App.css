@@ -18,6 +18,10 @@ Footer {
   margin-left: 20px;
 }
 
+.ant-image {
+  margin-left: 2px;
+}
+
 .ant-image-img {
   border-radius: 8px;
 }

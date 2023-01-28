@@ -15,7 +15,7 @@ Footer {
 }
 
 .image-container {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .ant-image-img {
@@ -23,7 +23,7 @@ Footer {
 }
 
 .ant-card-body {
-  height: 180px;
+  height: 190px;
 }
 
 .ant-card-meta-description {
@@ -121,7 +121,7 @@ Footer {
 }
 
 .ant-card-actions > li > span > span > svg {
-	font-size: 22px;
+	font-size: 20px;
   color: rgb(69, 178, 221);
 }
 
@@ -188,7 +188,7 @@ Footer {
 #profile-pic-blue {
   margin-left: 2px;
   border-radius: 8px;
-  border: 1px solid #f0f0f0;
+  /* border: 1px solid #f0f0f0; */
 }
 
 .ant-card {
@@ -224,3 +224,10 @@ Footer {
   border: 1px dashed #f0f0f0 !important;
 }
 
+#image-frame {
+  background-color: white;
+  border: 1px dashed #f0f0f0 !important;
+  display: flex;
+  padding: 10px;
+  margin-left: 20px;
+}

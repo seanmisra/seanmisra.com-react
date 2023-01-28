@@ -59,12 +59,14 @@ function App() {
       <div class="content-wrapper">
         <div class="content-container">
 
-          <div class="image-container">
-            <Image 
-              id="profile-pic-blue"
-              width={220}
-              src={require("./resources/profile_pic_blue.jpg")}
-            />
+          <div id="image-frame">
+            <div class="image-container">
+              <Image 
+                id="profile-pic-blue"
+                width={210}
+                src={require("./resources/profile_pic_blue.jpg")}
+              />
+            </div>
           </div>
 
           <div class="bio-container">

@@ -1,5 +1,5 @@
 .message-hidden {
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 #welcome-message {
@@ -13,4 +13,42 @@
 
 #email-message {
     color: #1677ff;
+}
+
+#message-card {
+    /* margin: 20px;
+    margin-top:0px;
+    width: 80vw;
+    height: 70px; */
+
+    margin-left: 20px;
+    width: 90vw;
+    height: 50px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}
+
+#message-card .ant-card-body {
+    padding: 15px !important;
+    padding-left: 0px !important;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: -10px; 
+}
+
+/* #robot-emoji {
+    margin-left: 10px; 
+    font-size: 22px;
+    position: absolute;
+    bottom: 7px;
+} */
+
+#robot-emoji {
+    /* margin-left: 25px;  */
+    font-size: 23px;
+    margin-top: -2px;
+    /* position: absolute;
+    bottom: 7px; */
 }

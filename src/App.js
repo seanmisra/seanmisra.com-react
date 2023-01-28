@@ -86,11 +86,15 @@ function App() {
 
         </div>
         
-        <div class="steps-content">
+       <Card id="project-card">
+            {/* Test */}
+        <Projects></Projects>
+       </Card>
+
+        {/* <div class="steps-content">
           <div style={contentStyle} class="steps-wrapper"> 
-            <Projects></Projects>
           </div>
-        </div>
+        </div> */}
       </div>
       <Message></Message>   
       <Footer></Footer> 

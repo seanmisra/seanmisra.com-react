@@ -203,3 +203,24 @@ Footer {
   color: blue;
   /* text-decoration: underline; */
 }
+
+#project-card {
+    margin-top: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    height: 330px;
+    margin-bottom: 8px;
+}
+
+#project-card .carousel-wrapper {
+  margin: 0px;
+}
+
+#project-card .ant-card-body {
+  padding: 15px !important
+}
+
+#project-card {
+  border: 1px dashed #f0f0f0 !important;
+}
+

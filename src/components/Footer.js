@@ -9,7 +9,8 @@ const Footer = () => {
     return(
         <> 
             <div class="footer-wrapper">
-                <p>© 2023 Sean Misra. All rights reserved.&nbsp;
+                {/* <span>+1 (617) 784-2828, Boston, MA.</span> */}
+                <p id="copyright-message">© 2023 Sean Misra. All rights reserved.&nbsp;
                     <span id="built-with-react" onClick={githubAction}>Built with React.</span></p>
             </div>
         </>

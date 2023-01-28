@@ -26,13 +26,12 @@
 }
 
 .live-demo {
-    /* color: #3f51b5; */
+    color: rgb(69, 178, 221);
+    cursor: pointer;
 }
 
 .live-demo:hover {
-    color: #3f51b5;
     text-decoration: underline;
-    cursor: pointer;
 }
 
 @media (max-width: 1380px) {

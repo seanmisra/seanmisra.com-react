@@ -16,16 +16,26 @@
 }
 
 #message-card {
-    /* margin: 20px;
-    margin-top:0px;
-    width: 80vw;
-    height: 70px; */
-
     margin-left: 20px;
     width: 90vw;
     height: 50px;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
+}
+
+#info-card {
+    margin-left: 20px;
+    width: 28vw;
+    height: 35px;
+    margin-top: 40px;
+}
+
+#info-card .ant-card-body {
+    display:flex;
+    align-items: center;
+    padding: 0px !important;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, .01) !important;
 }
 
 #message-card .ant-card-body {
@@ -51,6 +61,16 @@
     margin-top: -2px;
     /* position: absolute;
     bottom: 7px; */
+}
+
+#phone-number {
+    margin-left: 100px;
+}
+
+#location-icon, #phone-icon {
+    margin-right: 15px;
+    color: rgb(69, 178, 221);
+
 }
 
 @media (max-width: 1400px) {

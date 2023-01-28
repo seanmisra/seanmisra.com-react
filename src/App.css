@@ -60,7 +60,7 @@ Footer {
 .steps-wrapper {
   /* line-height: 40vh;
   text-align: center; */
-  border: 1px dashed rgb(190, 190, 190) !important;
+  border: 1px solid rgb(230, 230, 230) !important;
   border-radius: 4px !important;  
 }
 

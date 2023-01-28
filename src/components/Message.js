@@ -18,7 +18,7 @@ const Message = () => {
     return(
         <> 
         <Card id="message-card">
-            <span class="message-hidden" id="welcome-message">Thanks for visiting 🤝 sample projects are above. Feel free to email me at <span id="email-message">seanmisra30@gmail.com</span> or ask any questions to the chatbot built with Google's Dialogflow and Kommunicate</span>
+            <span class="message-hidden" id="welcome-message">Thanks for visiting 🤝 sample projects are above. Feel free to email me at <span id="email-message">seanmisra30@gmail.com</span> or ask any questions to the chatbot built with Google's Dialogflow<span id="kommunicate-responsive"> and Kommunicate</span></span>
             <span id="robot-emoji">🤖</span>
         </Card>
         {/* </div> */}

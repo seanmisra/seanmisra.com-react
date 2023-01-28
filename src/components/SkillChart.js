@@ -9,7 +9,6 @@ import {
   LinearScale,
   BarElement,
   Title,
-  Tooltip,
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
@@ -19,7 +18,6 @@ ChartJS.register(
     LinearScale,
     BarElement,
     Title,
-    Tooltip,
     Legend
 );
 
@@ -71,7 +69,7 @@ labels,
 datasets: [
     {
     label: 'Dataset 1',
-    data: [5, 5, 3, 3, 1.5, 3.5, 2],
+    data: [5, 5, 3.5, 3, 1.5, 3.5, 2],
     backgroundColor: 'rgb(69, 178, 221)',
     }
 

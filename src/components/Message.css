@@ -3,7 +3,7 @@
 }
 
 #welcome-message {
-    transition: 3s;
+    /* transition: 3s; */
 }
 
 .welcome-wrapper {
@@ -51,4 +51,22 @@
     margin-top: -2px;
     /* position: absolute;
     bottom: 7px; */
+}
+
+@media (max-width: 1400px) {
+    #robot-emoji {
+        display: none;
+    }
+
+    #message-card .ant-card-body {
+        margin-left: 10px;
+        font-size: 13px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1300px) {
+    #kommunicate-responsive {
+        display: none;
+    }
 }

@@ -9,6 +9,7 @@ import Description from './components/Description';
 import Footer from './components/Footer';
 import KommunicateChat from './chat';
 import Message from './components/Message';
+import { SkillChart } from './components/SkillChart';
 
 const { Meta } = Card;
 
@@ -97,6 +98,7 @@ function App() {
         </div> */}
       </div>
       <Message></Message>   
+      <SkillChart></SkillChart>
       <Footer></Footer> 
     </div>
   );

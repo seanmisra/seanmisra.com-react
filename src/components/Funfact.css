@@ -1,0 +1,13 @@
+.fun-fact-wrapper {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* position: fixed;
+    bottom: 30px; */
+}
+
+@media (min-height: 800px) {
+    .fun-fact-wrapper {
+        display: none;
+    }
+}

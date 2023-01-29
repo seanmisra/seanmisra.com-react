@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import KommunicateChat from './chat';
 import Message from './components/Message';
 import { SkillChart } from './components/SkillChart';
+import Funfact from './components/Funfact';
 
 const { Meta } = Card;
 
@@ -99,7 +100,8 @@ function App() {
           </div>
         </div> */}
       </div>
-      <Message></Message>   
+      <Message></Message>
+      <Funfact></Funfact>   
       <SkillChart></SkillChart>
       <Footer></Footer> 
     </div>

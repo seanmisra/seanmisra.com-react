@@ -49,7 +49,7 @@ const Projects = () => {
                         <p>MEAN Stack, Angular Material, omdbAPI |</p>
                         <p>The Movie Picker allows you to pick up to three movies and get a movie recommendation based on your preferences.
                              The recommendation algorithm is based on tag-metadata, while the enriched movie data comes from omdbAPI.&nbsp;
-                            <span class="live-demo" onClick={openMoviePicker}>Visit</span>
+                            <span class="live-demo" onClick={openMoviePicker}>Try it out!</span>
                              </p>
                         <GithubOutlined id="demo-github" onClick={githubActionMoviePicker}></GithubOutlined>
                     </div>
@@ -67,7 +67,7 @@ const Projects = () => {
                         <p>MERN Stack, MUI |</p>
                         <p>The Supplement Suru gives you supplement recommendations based on user-entered tags.
                              A user can enter one or multiple tags, which the algorithm uses to determine a recommendation.&nbsp;
-                             <span class="live-demo" onClick={openSupplementGuru}>Visit</span>
+                             <span class="live-demo" onClick={openSupplementGuru}>Try it out!</span>
                              </p>
                         <GithubOutlined id="demo-github" onClick={githubActionSupplementGuru}></GithubOutlined>
                     </div>    
@@ -103,7 +103,7 @@ const Projects = () => {
                         <p>PHP 8, Docker, Nginx, MySQL |</p>
                         <p>Flashcard Depot allows users to create, favorite, and study flashcards.
                              The project was deployed via a Docker container and Docker Compose.&nbsp;
-                             <span class="live-demo" onClick={openFlashcardDepot}>Visit</span>
+                             <span class="live-demo" onClick={openFlashcardDepot}>Try it out!</span>
                              </p>
                         <GithubOutlined id="demo-github" onClick={githubActionFlashcardDepot}></GithubOutlined>
                     </div>   

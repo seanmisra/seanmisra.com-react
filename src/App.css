@@ -183,7 +183,7 @@ Footer {
 #hashtags {
   color: rgb(69, 178, 221);    
   font-size: 14px;
-  margin-left: 7px;
+  margin-left: 2px;
 }
 
 .ant-steps-item:nth-child(3) {
@@ -235,4 +235,8 @@ Footer {
   display: flex;
   padding: 10px;
   margin-left: 20px;
+}
+
+strong {
+  color: rgb(70, 70, 70) !important; 
 }

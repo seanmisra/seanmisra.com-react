@@ -12,9 +12,10 @@ const Description = () => {
     
     return(
         <div class="description-wrapper">
-            <span>Hi, <strong>my name is Sean and I'm a software engineer.</strong> I am passionate about web engineering!
+            <span>Hi, <strong id="intro-bold">my name is Sean and I'm a software engineer.</strong> I am passionate about web engineering!
                  I have been programming for 8 years with 5 years of work experience. My hobbies include travel, movies,
-                   science-fiction, and yoga <span id="hashtags">#angular #react #javascript #PHP #java #aws #spring #rxjs #bootstrap #ionic #python #node #scala #ag-grid #NLP #MEAN #MERN #LAMP #laravel #jenkins #docker</span>
+                   science-fiction, and yoga <span id="hashtags">#angular #react #javascript #PHP #java #aws #spring #rxjs
+                    #bootstrap #ionic #python #node #scala #ag-grid #NLP #MEAN #MERN #LAMP #laravel #jenkins #docker</span>
                          
                 <span class="resume-link" id="responsive-resume-link" onClick={downloadResume}>
                     <span id="resume-no-space">Resume</span> &nbsp;

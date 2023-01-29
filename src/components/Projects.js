@@ -45,7 +45,7 @@ const Projects = () => {
                     />
 
                     <div class="carousel-description">
-                        <h3>Movie Picker</h3>
+                        <h3 class="carousel-title">Movie Picker <span id="carousel-title-emoji">🍿</span></h3>
                         <p>MEAN Stack, Angular Material, omdbAPI |</p>
                         <p>The Movie Picker allows you to pick up to three movies and get a movie recommendation based on your preferences.
                              The recommendation algorithm is based on tag-metadata, while the enriched movie data comes from omdbAPI.&nbsp;
@@ -63,7 +63,7 @@ const Projects = () => {
                     />
 
                     <div class="carousel-description">
-                        <h3>Supplement Guru</h3>
+                        <h3 class="carousel-title">Supplement Guru <span id="carousel-title-emoji">💊</span></h3>
                         <p>MERN Stack, MUI |</p>
                         <p>The Supplement Suru gives you supplement recommendations based on user-entered tags.
                              A user can enter one or multiple tags, which the algorithm uses to determine a recommendation.&nbsp;
@@ -81,7 +81,7 @@ const Projects = () => {
                     />
 
                     <div class="carousel-description">
-                        <h3>Java Coffee Shop</h3>
+                        <h3 class="carousel-title">Java Coffee Shop <span id="carousel-title-emoji">☕</span></h3>
                         <p>Angular 15, Spring Boot, MySQL |</p>
                         <p>A project to practice Spring Boot REST APIs. The Java Coffee Shop sells food, drinks,
                              and allows the user to create an account and login&nbsp;
@@ -99,7 +99,7 @@ const Projects = () => {
                     />
 
                     <div class="carousel-description">
-                        <h3>Flashcard Depot</h3>
+                        <h3 class="carousel-title">Flashcard Depot <span id="carousel-title-emoji">📚</span></h3>
                         <p>PHP 8, Docker, Nginx, MySQL |</p>
                         <p>Flashcard Depot allows users to create, favorite, and study flashcards.
                              The project was deployed via a Docker container and Docker Compose.&nbsp;

@@ -36,6 +36,10 @@ Footer {
   margin-left: 10px;
 }
 
+.bio-container img {
+  filter: grayscale(35%) !important;
+}
+
 .steps-content {
   margin-left: 20px;
   margin-right: 20px;
@@ -110,6 +114,10 @@ Footer {
 
 .ant-card-body {
   padding: 22px !important;
+}
+
+.bio-container .ant-card-body {
+  padding-top: 20px !important;
 }
 
 .ant-card-actions {
@@ -226,17 +234,33 @@ Footer {
 }
 
 #project-card {
-  border: 1px dashed #f0f0f0 !important;
+  border: 1px solid #f0f0f0 !important;
 }
 
 #image-frame {
   background-color: white;
-  border: 1px dashed #f0f0f0 !important;
+  border: 1px solid #f0f0f0 !important;
   display: flex;
   padding: 10px;
   margin-left: 20px;
 }
 
 strong {
-  color: rgb(70, 70, 70) !important; 
+  /* color: darkblue !important;  */
+  /* color: 	rgba(0,0,139, .8) !important; */
+  font-weight: 800 !important;
+  color: rgb(80, 80, 80) !important;
+}
+
+#intro-bold {
+  color: rgb(80, 80, 80) !important;
+  font-weight: bold !important;
+}
+
+.slick-dots li {
+  width: 24px !important;
+}
+
+.slick-dots li.slick-active {
+  width: 32px !important;
 }

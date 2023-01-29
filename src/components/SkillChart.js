@@ -62,7 +62,7 @@ export const options = {
       }
 };
 
-const labels = ['Angular', 'JS', 'Java', 'AWS', 'React', 'PHP', 'python'];
+const labels = ['Angular', 'JS', 'Java', 'AWS', 'React', 'PHP', 'Python'];
 
 export const data = {
 labels,

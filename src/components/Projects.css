@@ -41,3 +41,12 @@
         justify-content: right;
     }
 }
+
+#carousel-title-emoji {
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.carousel-title {
+    font-size: 17.5px;
+}

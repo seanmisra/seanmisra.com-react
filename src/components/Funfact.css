@@ -6,6 +6,17 @@
     bottom: 30px; */
 }
 
+/* .fun-fact-wrapper button:hover {
+    opacity: .8;
+} */
+
+@media (max-height: 710px) {
+    .fun-fact-wrapper {
+        display: none;
+    }
+}
+
+
 @media (min-height: 800px) {
     .fun-fact-wrapper {
         display: none;

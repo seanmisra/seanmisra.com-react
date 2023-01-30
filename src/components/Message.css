@@ -85,6 +85,18 @@
     }
 }
 
+@media (max-width: 1150px) {
+    #robot-emoji {
+        display: none;
+    }
+
+    #message-card .ant-card-body {
+        margin-left: 10px;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+}
+
 @media (max-width: 1300px) {
     #kommunicate-responsive {
         display: none;

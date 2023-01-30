@@ -82,7 +82,7 @@ function App() {
               >
               <Meta
                 avatar={<Avatar size="large" src={require("./resources/avatar.jpg")} />}
-                title="Hello!"
+                title="Hi!"
                 description={<Description/>}
               />
             </Card>
